@@ -1,0 +1,81 @@
+body {
+    /* set the background*/
+    background: url(pastrami.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: "Raleway", "Helvetica", sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
+    line-height: 1.75em;
+}
+
+h1, p{
+    font-family: inherit;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 0.075em;
+    line-height: 1em;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+    font-size: 5rem;
+    padding: 5rem;
+}
+
+p{
+    font-size: 3rem;
+    text-transform: none;
+}
+
+p>span{
+    background-color: #61686b;
+    padding: 0.5rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.center-bottom{
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    height: 5rem;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+  box-shadow: inset 0 0 0 2px #dddddd;
+  color: #61686b;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 3rem;
+  height: 3em;
+  letter-spacing: 0.05em;
+  line-height: 3.15em;
+  padding: 0 2em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+  touch-action: manipulation; /* Ensure fast touch event handling */
+  user-select: none;
+}
+
+.btn:active{
+    background-color: gainsboro;
+    transition: background-color 0s; /* Remove transition on click */
+}
