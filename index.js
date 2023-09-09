@@ -61,5 +61,5 @@ function incrementIndex(){
 }
 
 function triggerApi(){
-    fetch("http://jrohatsch.pythonanywhere.com/trigger");
+    fetch("https://jrohatsch.pythonanywhere.com/trigger");
 }
