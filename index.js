@@ -12,7 +12,10 @@ const reasons = [
     "You don't value the opinion of unimportant people :>",
     "You are well read and know stuff ^_^",
     "You know how to get along with a crowd ^-^",
-    "I can talk about my emotions without being judged :o"
+    "I can talk about my emotions without being judged :o",
+    "You have the longest legs ^.^",
+    "You challenge me and show me new perspectives o.o",
+    "You know my quirks and still stay with me ^o^"
 ];
 
 var currentIndex = 0;
