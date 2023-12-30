@@ -15,7 +15,8 @@ const reasons = [
     "I can talk about my emotions without being judged :o",
     "You have the longest legs ^.^",
     "You challenge me and show me new perspectives o.o",
-    "You know my quirks and still stay with me ^o^"
+    "You know my quirks and still stay with me ^o^",
+    "You are fun to be around ^^"
 ];
 
 var currentIndex = 0;
@@ -37,7 +38,6 @@ function updateReason(){
     clearOldReason()
     addNewReason()
     incrementIndex()
-    triggerApi()
 }
 
 function getReasonElement(){
@@ -63,6 +63,3 @@ function incrementIndex(){
     }
 }
 
-function triggerApi(){
-    fetch("https://jrohatsch.pythonanywhere.com/trigger");
-}

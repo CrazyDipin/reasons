@@ -1,12 +1,21 @@
+/* great-vibes-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/great-vibes-v18-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/great-vibes-v18-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+  
 body {
     /* set the background*/
-    background: url(pastrami.jpg) no-repeat center center fixed; 
+    background: url(notebook.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    font-family: "Raleway", "Helvetica", sans-serif;
+    font-family: "Great Vibes", helvetica, sans-serif;
     font-size: 15pt;
     font-weight: 400;
     line-height: 1.75em;
@@ -15,12 +24,11 @@ body {
 h1, p{
     font-family: inherit;
     text-align: center;
-    color: white;
+    color: rgb(28, 28, 249);
     font-weight: 800;
     letter-spacing: 0.075em;
     line-height: 1em;
     margin: 0 0 0 0;
-    text-transform: uppercase;
     font-size: 5rem;
     padding: 5rem;
 }
@@ -31,7 +39,6 @@ p{
 }
 
 p>span{
-    background-color: #61686b;
     line-height: 2;
     padding: 0.5rem;
 }
@@ -69,7 +76,6 @@ p>span{
   padding: 0 2em;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   white-space: nowrap;
   transition: background-color 0.3s ease;
   touch-action: manipulation; /* Ensure fast touch event handling */
